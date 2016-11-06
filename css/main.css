@@ -1,0 +1,165 @@
+p {
+	color: white;
+	font-size: 1.5em;
+}
+
+
+/*////////////////////
+------INDEX-PAGE------
+////////////////////*/
+
+	body {
+		background-image: url('../img/sky-blue.jpg');
+		background-repeat: no-repeat;
+		background-position: center;
+		margin: 0px auto;
+		position: relative;
+	}
+
+	/*----HEADER----*/
+	header {
+		width: 100%;
+		height: 250px;
+		background: #2d2d2d;
+	}
+
+	header img {
+		margin: 0px auto;
+		display: block;
+		width: 32%;
+	}
+
+	/*----MAIN----*/
+	.main h1 {
+		color: white;
+    	text-align: center;
+    	margin-top: 25px;
+    	font-size: 35px;
+    	text-decoration: underline;
+	}
+
+	/*----MID-SECTION----*/
+	#mid-section {
+		display: block;
+		position: absolute;
+		top: 24%;
+		left: 5%;
+		width: 90%;
+		height: 50%;
+		background: black;
+		opacity: 0.3;
+	}
+
+		/*----MESSAGE----*/
+		#message {
+			margin: 0px auto;
+			display: block;
+			color: white;
+			text-align: justify;
+			padding: 20%;
+			position: absolute;
+		}
+
+		/*----NAME----*/
+		#name {
+			position: relative;
+		}
+
+		#name p {
+			float: left;
+			padding-left: 40%;/*315px*/
+			padding-right: 5%;/*25px*/
+			padding-top: 50%;/*370px*/
+		}
+
+		#name img {
+			float: left;
+			width: 20%;
+			padding-right: 10%;/*10px*/
+			padding-top: 50%;/*395px*/
+		}
+
+		/*.main button {
+			color: white;
+		    font-size: 30px;
+		    display: inline;
+		    text-decoration: none;
+		    margin-top: 150px;
+		    float: left;
+		    margin-left: 20%;
+		    background: blue;
+		}*/
+
+		iframe {
+			float: left;
+    		margin-left: 150px;
+    		margin-top: 100px;
+    		position: relative;
+		}
+
+		/*----NAV----*/
+		#nav {
+
+		}
+
+		#nav ul {
+			position: absolute;
+		    background: black;
+		    width: 95%;
+		    padding-top: 10px;
+		    padding-bottom: 10px;
+		    top: 75%;
+		}
+
+		#nav ul li {
+			display: inline;
+			margin: 39px;
+		}
+
+		#nav ul li a {
+			color: white;
+    		text-decoration: underline;
+    		font-size: 35px;
+		}
+
+	/*----FOOTER----*/
+	footer {
+		width: 100%;
+    	margin-top: 890px;
+    	height: 250px;
+    	background: #2d2d2d;
+    	font-size: 100px;
+	}	
+
+	footer i {
+		width: 20%;
+	    color: white;
+	    margin: 0px auto;
+	    padding-top: 7%;
+	    padding-left: 11%;
+
+	}
+
+/*p {
+	background: black;
+	color: white;
+	text-align: center;
+	padding-top: 20%;
+	margin: 0px auto;
+	width: 50%;
+	height: 300px;
+}*/
+
+
+
+/*////////////////////
+----MEDIA QUERIES----
+///////////////////*/
+
+@media (min-width: 768px;){
+
+}
+
+@media (min-width: 940px;){
+
+}
