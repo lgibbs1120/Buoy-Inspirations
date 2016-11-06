@@ -1,3 +1,8 @@
+p {
+	color: white;
+	font-size: 1.5em;
+}
+
 
 /*////////////////////
 ------INDEX-PAGE------
@@ -35,6 +40,36 @@
 		background: black;
 		opacity: 0.3;
 	}
+
+		/*----MESSAGE----*/
+		#message {
+			margin: 0px auto;
+			display: block;
+			color: white;
+			text-align: justify;
+			padding: 20%;
+			position: absolute;
+		}
+
+		/*----NAME----*/
+		#name {
+			display: inline;
+			position: relative;
+		}
+
+		#name p {
+			float: left;
+			padding-left: 40%;/*315px*/
+			padding-right: 5%;/*25px*/
+			padding-top: 50%;/*370px*/
+		}
+
+		#name img {
+			float: left;
+			width: 20%;
+			padding-right: 10%;/*10px*/
+			padding-top: 50%;/*395px*/
+		}
 
 	/*----FOOTER----*/
 	footer {
