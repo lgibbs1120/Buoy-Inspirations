@@ -29,11 +29,20 @@ p {
 		width: 32%;
 	}
 
+	/*----MAIN----*/
+	.main h1 {
+		color: white;
+    	text-align: center;
+    	margin-top: 25px;
+    	font-size: 35px;
+    	text-decoration: underline;
+	}
+
 	/*----MID-SECTION----*/
 	#mid-section {
 		display: block;
 		position: absolute;
-		top: 25%;
+		top: 24%;
 		left: 5%;
 		width: 90%;
 		height: 50%;
@@ -53,7 +62,6 @@ p {
 
 		/*----NAME----*/
 		#name {
-			display: inline;
 			position: relative;
 		}
 
@@ -71,14 +79,66 @@ p {
 			padding-top: 50%;/*395px*/
 		}
 
+		/*.main button {
+			color: white;
+		    font-size: 30px;
+		    display: inline;
+		    text-decoration: none;
+		    margin-top: 150px;
+		    float: left;
+		    margin-left: 20%;
+		    background: blue;
+		}*/
+
+		iframe {
+			float: left;
+    		margin-left: 150px;
+    		margin-top: 100px;
+    		position: relative;
+		}
+
+		/*----NAV----*/
+		#nav {
+
+		}
+
+		#nav ul {
+			position: absolute;
+		    background: black;
+		    width: 95%;
+		    padding-top: 10px;
+		    padding-bottom: 10px;
+		    top: 75%;
+		}
+
+		#nav ul li {
+			display: inline;
+			margin: 39px;
+		}
+
+		#nav ul li a {
+			color: white;
+    		text-decoration: underline;
+    		font-size: 35px;
+		}
+
 	/*----FOOTER----*/
 	footer {
 		width: 100%;
     	margin-top: 890px;
     	height: 250px;
     	background: #2d2d2d;
-
+    	font-size: 100px;
 	}	
+
+	footer i {
+		width: 20%;
+	    color: white;
+	    margin: 0px auto;
+	    padding-top: 7%;
+	    padding-left: 11%;
+
+	}
 
 /*p {
 	background: black;
