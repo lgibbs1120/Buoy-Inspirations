@@ -1,3 +1,70 @@
-body {
-	background: blue;
+
+/*////////////////////
+------INDEX-PAGE------
+////////////////////*/
+
+	body {
+		background-image: url('../img/sky-blue.jpg');
+		background-repeat: no-repeat;
+		background-position: center;
+		margin: 0px auto;
+		position: relative;
+	}
+
+	/*----HEADER----*/
+	header {
+		width: 100%;
+		height: 250px;
+		background: #2d2d2d;
+	}
+
+	header img {
+		margin: 0px auto;
+		display: block;
+		width: 32%;
+	}
+
+	/*----MID-SECTION----*/
+	#mid-section {
+		display: block;
+		position: absolute;
+		top: 25%;
+		left: 5%;
+		width: 90%;
+		height: 50%;
+		background: black;
+		opacity: 0.3;
+	}
+
+	/*----FOOTER----*/
+	footer {
+		width: 100%;
+    	margin-top: 890px;
+    	height: 250px;
+    	background: #2d2d2d;
+
+	}	
+
+/*p {
+	background: black;
+	color: white;
+	text-align: center;
+	padding-top: 20%;
+	margin: 0px auto;
+	width: 50%;
+	height: 300px;
+}*/
+
+
+
+/*////////////////////
+----MEDIA QUERIES----
+///////////////////*/
+
+@media (min-width: 768px;){
+
+}
+
+@media (min-width: 940px;){
+
 }
